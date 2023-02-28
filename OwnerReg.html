@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Teacher Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background: #555;
+               background-color: lightgoldenrodyellow;
+                margin: 5%;
+            }
+            .container{
+                max-width: 500px;
+                margin: auto;
+                
+                padding: 30px;
+                background: antiquewhite;
+                border: 3px solid black;
+                    
+            }
+            .text-center{
+                text-align: center;
+            }
+            .register:hover{
+               color: white;
+               background-color: #4CAF50;
+               border: 2px solid #f44336;
+            }
+            .register{
+                background-color:yellow; 
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Teacher Registration</h1>
+        <form action="OwnerReg.jsp">
+            User Name: <input type="text" name="username" placeholder="username" required ><br><br>
+            Password: <input type="password" name="password" placeholder="password" required ><br><br>
+        Email Address: <input type="email" name="email" placeholder="email"required ><br><br>
+        Date Of Birth: <input type="date" name="dob" required ><br><br>
+        Select Gender: <select name="gender" required >
+            <option value="0">select</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+        </select><br><br>
+        
+        Select Department:<select name="department" required >
+            <option value="0">select</option>
+            <option value="1">Computer</option>
+            <option value="2">ENTC</option>
+            <option value="3">Mechanical</option>
+            <option value="4">Chemical</option>
+
+        </select> <br><br>
+        Address: <input type="text" name="address" placeholder="address" required ><br><br>
+        Mobile Number: <input type="number" name="mobno" placeholder="mobile number" required ><br><br>
+        <!--<input type="submit" value="Register"><br><br>-->
+        <!--Pop Up Code-->
+        <div class="text-center">
+           
+        <input class="register" type ="submit"  value="Register" >
+            
+        </div>
+        
+        </form>
+        </div>
+    </body>
+</html>
+ 

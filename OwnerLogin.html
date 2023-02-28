@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Data Owner Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color:lightgoldenrodyellow;
+                text-align: center;
+                margin:10%;
+           
+            }
+            .container{
+                padding :70px;
+                background-color: antiquewhite;
+                border:5px solid;
+                width:300px;
+                margin:auto;
+                border-color:red ;
+                 padding-left: 25px;
+                padding-right: 25px;
+                text-align: center;
+            }
+            .login{
+                color : white;
+                background-color: green;
+            }
+            .login:hover{
+                background-color:yellow;
+                color:black;
+            }
+            .register{
+                padding: 3px;
+                color : white;
+                background-color: green; 
+                text-decoration:none;
+                box-decoration-break:clone;
+                    
+                    border:5px;
+                
+            }
+            .register:hover{
+                 background-color:yellow;
+                color:black;
+            }
+            h2{
+           color:navy;
+            }
+           
+            
+        </style>
+    </head>
+    <body>
+       
+        <div class='container'>
+        <h1>Teacher Login</h1>
+        <form action="OwnerLogin.jsp">
+            UserName: <input type="text" name="username"> <br><br>
+            Password: <input type="password" name="password"> <br><br>
+            <input class="login" type="submit" value="Submit"><br><br>
+        </form>
+        <form action="OwnerReg.html">
+            <input class="register" type="submit" value="New Owner/Register Here">
+        </form>
+        </div>
+    </body>
+</html>
